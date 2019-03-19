@@ -1,3 +1,4 @@
+import Parrot from './Parrot.js'
 
 class NorwegianBlue extends Parrot{
     constructor(voltage, isNailed) {
@@ -15,4 +16,4 @@ class NorwegianBlue extends Parrot{
     }
 }
 
-module.exports = Norwegian_Blue;
+module.exports = NorwegianBlue;

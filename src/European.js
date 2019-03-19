@@ -1,4 +1,4 @@
-import Parrot from './Parrot';
+import Parrot from './Parrot.js'
 
 class European extends Parrot{
     

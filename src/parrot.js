@@ -1,7 +1,7 @@
-export class Parrot {
-    
+class Parrot {
+
     constructor() {
-         const BASE_SPEED = 12;
+        this.BASE_SPEED = 12;
     }
 
     getSpeed() {

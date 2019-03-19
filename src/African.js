@@ -1,7 +1,9 @@
+import Parrot from './Parrot.js'
+
 class African extends Parrot{
     constructor(numberOfCoconuts) {
         super();
-        const LOAD_FACTOR = 9;
+        this.LOAD_FACTOR = 9;
         this.numberOfCoconuts = numberOfCoconuts;
     }
 
